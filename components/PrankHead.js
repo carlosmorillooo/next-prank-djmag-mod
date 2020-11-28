@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function PrankHead({ title, subtitle }) {
+export default function PrankHead({ title }) {
   return (
     <Head>
       <title>{title}</title>
