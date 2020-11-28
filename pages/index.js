@@ -6,7 +6,7 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   let [title, setTitle] = useState('')
-  let [subtitle, setSubtitle] = useState('')
+  
   return (
     <div className="container">
       <PrankHead title="DJMag.com - Living & Breathing Dance Music" />
@@ -27,15 +27,7 @@ export default function Home() {
             }}
           />
 
-          Article Subtitle
-          <input
-            type="text"
-            placeholder="Something to do during a 13-min track? "
-            value={subtitle}
-            onChange={(e) => {
-              setSubtitle(e.target.value)
-            }}
-          />
+        
           {title.length > 0 && (
             <div>
               Send this URL to your friends! <br />

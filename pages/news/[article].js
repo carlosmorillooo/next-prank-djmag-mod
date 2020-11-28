@@ -12,7 +12,7 @@ export async function getStaticProps({ params }) {
   console.log(params.article.split('-').join(' '))
 
   return {
-    props: { title, subtitle } ,
+    props: { title } ,
     revalidate: false,
   }
 }
