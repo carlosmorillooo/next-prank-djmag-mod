@@ -1,0 +1,16 @@
+{
+  "name": "next-netlify-starter",
+  "version": "0.1.1",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "postbuild": "next-on-netlify"
+  },
+  "dependencies": {
+    "next": "^9.5.4",
+    "next-on-netlify": "^2.4.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}
