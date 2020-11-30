@@ -1,3 +1,5 @@
+Este repositorio es una modificación de uno existente creado con la intención de divertirnos con amigos y experimentar con next js
+
 # Next Prank Site
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b236bd20-d636-45b1-a6f2-5a96b4228ac4/deploy-status)](https://app.netlify.com/sites/chicag0tribune/deploys)
